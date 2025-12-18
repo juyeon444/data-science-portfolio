@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Data (do not upload raw data)
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.xlsx
+*.sqlite
+
+# OS
+.DS_Store
+
