@@ -3,13 +3,9 @@
 __pycache__/
 .ipynb_checkpoints/
 
-# Data (do not upload raw data)
+# Data
 data/raw/
-data/processed/
-*.csv
-*.parquet
-*.xlsx
-*.sqlite
+*.zip
 
 # OS
 .DS_Store
