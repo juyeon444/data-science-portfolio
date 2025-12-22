@@ -163,15 +163,16 @@ These limitations are acknowledged by design and reflect a deliberate tradeoff i
 
 ## Project Structure
 
+```text
 ├── data/
-│ └── processed/
-│ ├── zillow_zhvi_2022.csv
-│ └── acs_features_2022_county.csv
+│   └── processed/
+│       ├── zillow_zhvi_2022.csv
+│       └── acs_features_2022_county.csv
 ├── notebooks/
-│ ├── 01_zillow_preprocessing.ipynb
-│ ├── 02_census_preprocessing.ipynb
-│ ├── 03_housing_price_eda.ipynb
-│ └── 04_interpretable_modeling.ipynb
+│   ├── 01_zillow_preprocessing.ipynb
+│   ├── 02_census_preprocessing.ipynb
+│   ├── 03_housing_price_eda.ipynb
+│   └── 04_interpretable_modeling.ipynb
 └── README.md
 
 Raw input datasets are not included in this repository due to data size and licensing
