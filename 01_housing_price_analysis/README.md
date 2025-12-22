@@ -175,6 +175,8 @@ These limitations are acknowledged by design and reflect a deliberate tradeoff i
 │   └── 04_interpretable_modeling.ipynb
 └── README.md
 
+```
+
 Raw input datasets are not included in this repository due to data size and licensing
 considerations. All preprocessing steps are fully documented in the notebooks.
 
