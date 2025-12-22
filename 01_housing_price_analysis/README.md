@@ -110,7 +110,6 @@ All regression results are interpreted as **conditional associations rather than
 
 The final interpretable regression model is specified as:
 
-```math
 log(ZHVI_2022) =
 β0
 + β1 · median_income_2022
@@ -130,7 +129,6 @@ High-school-or-higher attainment (HS+) is excluded from the final specification 
 Because the dependent variable is log-transformed, coefficients are interpreted
 using a log–linear rule.
 
-```math
 Percent change in ZHVI
 ≈ 100 × (exp(β_k × ΔX_k) − 1)
 
