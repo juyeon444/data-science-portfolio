@@ -110,16 +110,15 @@ All regression results are interpreted as **conditional associations rather than
 
 The final interpretable regression model is specified as:
 
-\[
-\log(\text{ZHVI}_{2022}) =
-\beta_0
-+ \beta_1 \text{median\_income}_{2022}
-+ \beta_2 \text{ba\_plus\_share}_{2022}
-+ \beta_3 \log(1 + \text{population}_{2022})
-+ \beta_4 \text{avg\_household\_size}_{2022}
-+ \beta_5 \text{unemployment\_rate}_{2022}
-+ \varepsilon
-\]
+```math
+log(ZHVI_2022) =
+β0
++ β1 · median_income_2022
++ β2 · ba_plus_share_2022
++ β3 · log(1 + population_2022)
++ β4 · avg_household_size_2022
++ β5 · unemployment_rate_2022
++ ε
 
 This specification is treated as the **official final model** for interpretation.
 
@@ -128,13 +127,12 @@ High-school-or-higher attainment (HS+) is excluded from the final specification 
 
 ## Interpretation Strategy
 
-Because the dependent variable is log-transformed, coefficients are interpreted using a log–linear rule. For a change \(\Delta X_k\) in predictor \(X_k\):
+Because the dependent variable is log-transformed, coefficients are interpreted
+using a log–linear rule.
 
-\[
-\%\Delta \text{ZHVI}
-\approx
-100 \times \left( \exp(\beta_k \Delta X_k) - 1 \right)
-\]
+```math
+Percent change in ZHVI
+≈ 100 × (exp(β_k × ΔX_k) − 1)
 
 Effects are evaluated at substantively meaningful unit changes (e.g., +$10,000 income, +10 percentage points in educational attainment) to enhance interpretability.
 
