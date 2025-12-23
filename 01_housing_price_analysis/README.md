@@ -187,13 +187,14 @@ This analysis examined how housing prices vary across U.S. counties in 2022 as a
 
 Three main conclusions emerge from the results.
 
-First, **median household income and educational attainment are the strongest associates of county-level housing prices**. Counties with higher incomes and a larger share of college-educated residents consistently exhibit substantially higher housing values, even after controlling for population size and labor market conditions. These variables explain a large share of cross-county variation in housing prices.
+First, median household income and educational attainment are the strongest associates of county-level housing prices. Counties with higher incomes and a larger share of college-educated residents consistently exhibit substantially higher housing values, even after controlling for population size and labor market conditions. These variables explain a large share of cross-county variation in housing prices.
 
-Second, **population size and household structure play secondary but meaningful roles**. More populous counties tend to have higher housing prices, reflecting urban scale effects, while average household size is positively associated with housing values once other factors are held constant. These effects are smaller than those of income and education but remain statistically and substantively relevant.
+Second, population size and household structure play secondary but meaningful roles. More populous counties tend to have higher housing prices, reflecting urban scale effects, while average household size is positively associated with housing values once other factors are held constant. These effects are smaller than those of income and education but remain statistically and substantively relevant.
 
-Third, **labor market conditions, as measured by the unemployment rate, are modestly but consistently associated with housing prices once other socioeconomic characteristics are accounted for**. The estimated effect is small in magnitude relative to income and education, suggesting that unemployment primarily captures residual economic stress rather than acting as a dominant driver of regional housing prices in a cross-sectional setting.
+Third, labor market conditions, as measured by the unemployment rate, exhibit a small and specification-sensitive association with housing prices once other socioeconomic characteristics are accounted for.
+The magnitude of this effect is modest relative to income and education, and its sign can vary due to collinearity and suppression effects, indicating that unemployment should be interpreted as a secondary control rather than a primary driver of regional housing prices in this cross-sectional setting.
 
-Overall, the final model explains approximately **56% of the variation in log-transformed housing prices across U.S. counties**, which is substantial given the heterogeneity of housing markets and the absence of spatial or temporal structure in the model.
+Overall, the final model explains approximately 56% of the variation in log-transformed housing prices across U.S. counties, which is substantial given the heterogeneity of housing markets and the absence of spatial or temporal structure in the model.
 
-Importantly, these findings describe **conditional associations rather than causal relationships**. The results highlight how housing prices co-vary with correlated dimensions of income, education, urbanization, and demographic structure across regions, providing a transparent and interpretable summary of regional housing price differences in 2022.
+Importantly, these findings describe conditional associations rather than causal relationships. The results highlight how housing prices co-vary with correlated dimensions of income, education, urbanization, and demographic structure across regions, providing a transparent and interpretable summary of regional housing price differences in 2022.
 
