@@ -1,0 +1,71 @@
+{
+  "verified_at": "2026-11-01T19:21:15.022293-07:00",
+  "python": "3.12.14",
+  "notebooks": [
+    {
+      "notebook": "01_zillow_preprocessing.ipynb",
+      "cells": 21,
+      "validation": "passed"
+    },
+    {
+      "notebook": "02_census_preprocessing.ipynb",
+      "cells": 30,
+      "validation": "passed"
+    },
+    {
+      "notebook": "03_housing_price_eda.ipynb",
+      "cells": 45,
+      "validation": "passed"
+    },
+    {
+      "notebook": "04_interpretable_modeling.ipynb",
+      "cells": 37,
+      "validation": "passed"
+    }
+  ],
+  "data_hashes_before_equal_after": true,
+  "data_sha256": {
+    "data/.DS_Store": "ecfc8b684f53e23872a3e1f7efbb46b34bee199e48d55be170571374bec244a2",
+    "data/processed/.DS_Store": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+    "data/processed/acs_education_b15003_2022.csv": "d7d62183a037e4ffc3d81fa39c1ea8868a3db3f4208a4deb9a6c46314b53f4ab",
+    "data/processed/acs_employment_b23025_2022.csv": "8ff551fd0ec60f734cd88b31a3a1772b6cbedec304711ee95082f7b1ed0f2b74",
+    "data/processed/acs_features_2022_county.csv": "34a45b900122a7f0e7b257c37a3d8061bf2fb3820838ccb5e5d3e07343b8277b",
+    "data/processed/acs_household_b25010_2022.csv": "af976dc9dfdb8f02b1b1f7d8e1cc746b86b80972e4131a81061ae20896048058",
+    "data/processed/acs_income_b19013_2022.csv": "7d2ee751366cf48057085eb417661cd77167a44c0cbe2c74e4580ec0088764e5",
+    "data/processed/acs_population_b01003_2022.csv": "c6050bea3d174a4a95831e25b12441eed27e131da11aadaa8e79984f81584019",
+    "data/processed/zillow_zhvi_2022.csv": "00211d947539f2129294b3473cd6d0c88fd3e11ab08256aaeeac514ade4ede3c",
+    "data/raw/.DS_Store": "bd17565145ccaec79eab0881db0334db1a42e79f759fb830ef421827c5c023da",
+    "data/raw/census/.DS_Store": "737695e0877956cf57043fb0f79c114ae44ff957ceaecd111fab1853af9897c4",
+    "data/raw/census/ACSDT5Y2022.B01003_2025-12-18T192621/ACSDT5Y2022.B01003-Column-Metadata.csv": "f8be60b72c1f02ad2e1d65885fb162a3f167f2654fc3e2d816211cefa8fbd380",
+    "data/raw/census/ACSDT5Y2022.B01003_2025-12-18T192621/ACSDT5Y2022.B01003-Data.csv": "131271f94b4823a5fe8f3c869b73eee0e72e595188b24eff458368f549ab2a27",
+    "data/raw/census/ACSDT5Y2022.B01003_2025-12-18T192621/ACSDT5Y2022.B01003-Table-Notes.txt": "13c56fc74df204f17ff377b44c4e8739d30f2c9b5ae375b73cc1ec58d315fa03",
+    "data/raw/census/ACSDT5Y2022.B01003_2025-12-18T192621.zip": "27b7468e851176e503c4d19facb7f729a5c0abfb124bcc201fe024da88c1af89",
+    "data/raw/census/ACSDT5Y2022.B15003_2025-12-18T192926/ACSDT5Y2022.B15003-Column-Metadata.csv": "553dda5313c8f28dfb77050ba6d10e435a5b2a871ea39e578e9b3c26137bdf3e",
+    "data/raw/census/ACSDT5Y2022.B15003_2025-12-18T192926/ACSDT5Y2022.B15003-Data.csv": "a4c0a3049ae5a6f9c2e859726037143f6bc144082f616f97313d22f5c3c9bb87",
+    "data/raw/census/ACSDT5Y2022.B15003_2025-12-18T192926/ACSDT5Y2022.B15003-Table-Notes.txt": "13c56fc74df204f17ff377b44c4e8739d30f2c9b5ae375b73cc1ec58d315fa03",
+    "data/raw/census/ACSDT5Y2022.B15003_2025-12-18T192926.zip": "60b5f42209ad7ad1f2822eaad11fa978ed6029cd613b93bf0275c33ddda11a64",
+    "data/raw/census/ACSDT5Y2022.B19013_2025-12-18T191443/ACSDT5Y2022.B19013-Column-Metadata.csv": "0dce785a604a22cd7c5c11e52e79fae8fa14e3fb6597ad5521aff6bf4bf31179",
+    "data/raw/census/ACSDT5Y2022.B19013_2025-12-18T191443/ACSDT5Y2022.B19013-Data.csv": "3613e93921a95bcc7a42dfe6bf095ea250749bb17b84447b42420ffd714bd0f7",
+    "data/raw/census/ACSDT5Y2022.B19013_2025-12-18T191443/ACSDT5Y2022.B19013-Table-Notes.txt": "066cc127f6eda1e4cf1277ec3a157bc22c637c0fc0624c0e0f9e8d672f0a2d13",
+    "data/raw/census/ACSDT5Y2022.B19013_2025-12-18T191443.zip": "c43df22ac37eb0c1315955fc48f8d4b4336177fa6e157e1e1cd3b8d3ece38eb0",
+    "data/raw/census/ACSDT5Y2022.B23025_2025-12-18T193418/ACSDT5Y2022.B23025-Column-Metadata.csv": "8b1652924acd1c31ebd7e1242d2afd6bd28f58242e9ca0a91a0ceee29ef2d0f1",
+    "data/raw/census/ACSDT5Y2022.B23025_2025-12-18T193418/ACSDT5Y2022.B23025-Data.csv": "b7959bfe1bb0038f6719abab0d2ee7d1b77d5c61a23528a1b9c26c0b6ffd95a1",
+    "data/raw/census/ACSDT5Y2022.B23025_2025-12-18T193418/ACSDT5Y2022.B23025-Table-Notes.txt": "13c56fc74df204f17ff377b44c4e8739d30f2c9b5ae375b73cc1ec58d315fa03",
+    "data/raw/census/ACSDT5Y2022.B23025_2025-12-18T193418.zip": "4e0d902f54906f4a80aeec686ad28832bc1ac10f99e972bdc946492402e1852b",
+    "data/raw/census/ACSDT5Y2022.B25010_2025-12-18T193124/ACSDT5Y2022.B25010-Column-Metadata.csv": "cc3ffd1322a37429f697e1bc9c42f04299df768814f257ceaab64d49250f1b11",
+    "data/raw/census/ACSDT5Y2022.B25010_2025-12-18T193124/ACSDT5Y2022.B25010-Data.csv": "5b6977f7e3bb35dbf588c4beaafd6cc08d4c2d4c01b282d332d75a994b2cc2f0",
+    "data/raw/census/ACSDT5Y2022.B25010_2025-12-18T193124/ACSDT5Y2022.B25010-Table-Notes.txt": "13c56fc74df204f17ff377b44c4e8739d30f2c9b5ae375b73cc1ec58d315fa03",
+    "data/raw/census/ACSDT5Y2022.B25010_2025-12-18T193124.zip": "d035ebb329ce71e0e294fae193de472e65840911f2b85b7fd3ead5a7071374a7",
+    "data/raw/census/B01003_population.csv": "131271f94b4823a5fe8f3c869b73eee0e72e595188b24eff458368f549ab2a27",
+    "data/raw/census/B15003_education.csv": "a4c0a3049ae5a6f9c2e859726037143f6bc144082f616f97313d22f5c3c9bb87",
+    "data/raw/census/B19013_income.csv": "3613e93921a95bcc7a42dfe6bf095ea250749bb17b84447b42420ffd714bd0f7",
+    "data/raw/census/B23025_employment.csv": "b7959bfe1bb0038f6719abab0d2ee7d1b77d5c61a23528a1b9c26c0b6ffd95a1",
+    "data/raw/census/B25010_household_size.csv": "5b6977f7e3bb35dbf588c4beaafd6cc08d4c2d4c01b282d332d75a994b2cc2f0",
+    "data/raw/zillow/County_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv": "db7a1197b50e87f419cfcd2d6f83a840e2e6b746b8629a0c01822033964ab212"
+  },
+  "model_baseline": "6ff1e0b5af902ee0c80d1d3d4906c0df1471bfc0",
+  "documents_checked": [
+    "README.md",
+    "executive_summary.md"
+  ]
+}

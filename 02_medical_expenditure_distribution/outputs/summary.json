@@ -1,0 +1,37 @@
+{
+  "mean": 7487.261586829892,
+  "se": 173.36920462851774,
+  "ci_low": 7144.824612637774,
+  "ci_high": 7829.698561022009,
+  "design_df": 157,
+  "raw_n": 18919,
+  "positive_weight_n": 18463,
+  "zero_weight_n": 456,
+  "represented_population": 334530273.168012,
+  "total_spending": 2504715663922.5664,
+  "median": 1583.0,
+  "p90": 18330.0,
+  "p95": 34150.0,
+  "p99": 93443.0,
+  "zero_share": 0.14449099908181937,
+  "gini": 0.780527864800664,
+  "top1_share": 0.20094053429095082,
+  "top5_share": 0.4866626588111816,
+  "top10_share": 0.6523001062415059,
+  "bottom50_share": 0.028914704849616335,
+  "unweighted_mean": 8535.664355738503,
+  "unweighted_median": 1879.0,
+  "unweighted_top5_share": 0.4686719579519955,
+  "component_max_abs_difference": {
+    "services": 0.0,
+    "payers": 4.0
+  },
+  "component_weighted_difference": {
+    "services": 0.0,
+    "payers": 5793184.719252
+  },
+  "raw_sha256": "7651dfc4e506e0c41236413eb2585d2e50515c0ab9c779028954d64571c59b88",
+  "source": "AHRQ MEPS HC-251, 2023",
+  "concentration_boundary": "fractional allocation proportional to weights within expenditure ties",
+  "inference": "Taylor 95% t interval for overall mean only; other metrics are descriptive point estimates"
+}

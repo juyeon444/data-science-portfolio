@@ -1,28 +1,39 @@
 # Executive Summary (For General Audience)
 
-### What drives housing prices across U.S. counties in 2022?
+### Which characteristics are associated with county housing prices in 2022?
 
-Using publicly available data from Zillow and the U.S. Census Bureau, this project
-examines how housing prices vary across U.S. counties and which local characteristics
-are most strongly associated with higher home values.
+This analysis combines Zillow home values and U.S. Census Bureau ACS data for
+3,052 counties. Zillow values summarize available months in 2022, while ACS
+characteristics are 2018–2022 five-year period estimates. Of these counties,
+3,012 have twelve Zillow months and 40 have eleven. Available months are
+averaged without filling in missing months.
 
-The analysis shows that **income and education are the strongest factors**.
-Counties with higher median household incomes and a larger share of college-educated
-residents consistently exhibit substantially higher housing prices, even after
-accounting for population size and local labor market conditions.
+Income, college attainment, population, household size, and unemployment each
+have positive associations with home values after accounting for the other
+predictors. All five are statistically significant at the 5% level using HC3
+robust standard errors, which adjust for heteroskedasticity (differences in
+error variance across counties). These associations do not establish causes.
 
-**Population size also matters, but to a lesser extent.**
-More populous counties—often urban areas—tend to have higher housing prices, reflecting
-urban scale effects. However, population alone does not explain large differences in
-housing values across regions.
+The model explains about **56.3% of the observed variation in log home values**
+in this sample. This is an in-sample descriptive result, not a measure of
+out-of-sample predictive accuracy or a ranking of individual drivers.
 
-**Labor market conditions play a smaller but consistent role.**
-After controlling for income, education, and population, differences in unemployment
-rates are associated with relatively modest changes in housing prices. This suggests
-that unemployment captures residual economic stress rather than serving as a primary
-driver of regional housing values.
+The corrected variance inflation factors (VIFs), which measure collinearity
+among predictors, range from **1.26 to 2.67**. They do not indicate severe
+multicollinearity under common screening rules. The correction leaves the
+regression coefficients, statistical significance, and model fit unchanged;
+the calculation and previous values are documented in the correction record.
 
-Overall, the model explains **more than half of the variation in housing prices across
-U.S. counties in 2022**. While the analysis does not claim causal effects, it provides
-a clear and interpretable picture of how housing prices are associated with key
-socioeconomic characteristics across regions.
+Unemployment has a modest positive conditional association in this specification
+(about +0.87% home value per +1 percentage point unemployment). The analysis
+does not establish why this association occurs or identify residual economic
+stress as its mechanism.
+
+Limitations remain: a single cross-section with different measurement periods,
+partial-year housing coverage for 40 counties, county-level aggregation, unmodeled
+spatial dependence and ACS measurement uncertainty. Influence screening also
+flags counties for further examination. The model has not been refitted after
+removing flagged counties to check sensitivity. Low VIF does not remove these limitations.
+
+See the [diagnostic correction record](diagnostic_correction.md) for before/after
+values, unchanged model estimates, and verification details.

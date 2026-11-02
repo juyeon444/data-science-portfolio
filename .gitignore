@@ -10,3 +10,9 @@ data/raw/
 # OS
 .DS_Store
 
+# Local MEPS source files and person-level extraction cache
+02_medical_expenditure_distribution/data/raw/
+02_medical_expenditure_distribution/data/processed/
+
+# Local housing source files
+01_housing_price_analysis/data/raw/

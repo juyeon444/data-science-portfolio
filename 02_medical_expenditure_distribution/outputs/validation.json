@@ -1,0 +1,48 @@
+{
+  "verified_at": "2026-11-02T09:01:13.245461-07:00",
+  "python": "3.12.14",
+  "notebooks": [
+    {
+      "notebook": "01_data_overview.ipynb",
+      "cells": 16,
+      "passed": true
+    },
+    {
+      "notebook": "02_distribution_and_composition.ipynb",
+      "cells": 19,
+      "passed": true
+    }
+  ],
+  "raw_files_sha256": {
+    "data/raw/h251.xlsx": "7651dfc4e506e0c41236413eb2585d2e50515c0ab9c779028954d64571c59b88",
+    "data/raw/.DS_Store": "c485ac2df5912bb138a49d0950b788c8b09f09382bf4199a28e5c7ae46b7c0a8",
+    "data/raw/h251ru.txt": "895056708ffe6ecced8facc0586d2c0e67250525ef769dadbc076919bc12bdf2",
+    "data/raw/h251doc.pdf": "c96de6e7af6b2415ba1118037caaffbfc2582158b1b319ce89704ffcce0da7d5",
+    "data/raw/h251xlsx.zip": "46b4cfe0952fa132104e3e5858f14b46db9e97a07be9214ada3e7295ef5b3811",
+    "data/raw/h251cb.pdf": "9545a6f7f6b49740150491d2d5f8718b07f31ce206213fd8a942ad1fd06fa847"
+  },
+  "raw_files_unchanged": true,
+  "independent_checks": [
+    "Lorenz/concentration complement",
+    "subgroup population and expenditure partitions",
+    "subgroup mean reconstruction",
+    "official sample counts and rounded population total",
+    "matrix Taylor variance",
+    "generated report and saved aggregate figures"
+  ],
+  "code_sha256": {
+    "analysis.py": "57df16a3cbe614cfdb4d1174df5d38405a093c08444369b52829df2e2522be2f",
+    "verify_notebooks.py": "00007c281322d39b413e0ae19cd032d658308dc56f991509a5fb989fc3c3706c",
+    "reporting.py": "1d91a25b62258d45de40949ce466d709479f0e8b58d56c3b9b22045ed8cb24f0"
+  },
+  "notebook_sha256": {
+    "01_data_overview.ipynb": "f149add3a8879208bb60e1a42b261d0fbcd37e5b44bcd6db2523ec961dbfff19",
+    "02_distribution_and_composition.ipynb": "582b47e5fb77b470b5268648001075403dc975893852557f35c16d2521a3691d"
+  },
+  "figure_sha256": {
+    "concentration.png": "34323ddd4cd1f646564578adff1adb53fc6b9ad77755bc7965b9f7b18a9d4db2",
+    "composition.png": "c921c6d712fd842f04b00e73793d7b5fcc4a2000e196459846397949e6c8c9bc",
+    "distribution.png": "b0c9194c13af7dcae8d094e358443c6d33794c4b7bcf6b4848d59c2aaecf2194",
+    "characteristics.png": "7d40ab342ab7c6f00df8ed18a6e2e8a0c4d665b3d51da254f8916e56bdd2bd5a"
+  }
+}

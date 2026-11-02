@@ -1,0 +1,63 @@
+{
+  "source_commit": "6ff1e0b5af902ee0c80d1d3d4906c0df1471bfc0",
+  "provenance": "Original notebook cells 2,4,6,12,15,17,28 executed unchanged before correction; baseline is a fresh reproduction, not full-precision historical saved output.",
+  "nobs": 3052,
+  "rsquared": 0.5627241444450664,
+  "names": [
+    "const",
+    "median_income_2022",
+    "ba_plus_share_2022",
+    "log_population",
+    "avg_household_size_2022",
+    "unemployment_rate_2022"
+  ],
+  "params": [
+    10.266921794209939,
+    1.1628780760817087e-05,
+    1.6815447828440915,
+    0.0303846632333451,
+    0.20931956039354593,
+    0.8615786093773625
+  ],
+  "bse": [
+    0.07047461718041743,
+    5.644274481281672e-07,
+    0.09368751432681355,
+    0.004939989593115111,
+    0.027526495213182605,
+    0.28908617872120207
+  ],
+  "pvalues": [
+    0.0,
+    2.106698484161926e-88,
+    1.4878240709067536e-68,
+    8.717434487559908e-10,
+    3.791593277206737e-14,
+    0.0029019427470485318
+  ],
+  "hc3_bse": [
+    0.07912190010270115,
+    5.863505837409191e-07,
+    0.11227152924880587,
+    0.005791196124856612,
+    0.030313893647366783,
+    0.31472234302153224
+  ],
+  "hc3_pvalues": [
+    0.0,
+    2.0015485636511228e-82,
+    5.478531199576376e-49,
+    1.6545596849359917e-07,
+    6.082179882764138e-12,
+    0.006225207894924743
+  ],
+  "data_sha256": {
+    "acs_income_b19013_2022.csv": "7d2ee751366cf48057085eb417661cd77167a44c0cbe2c74e4580ec0088764e5",
+    "zillow_zhvi_2022.csv": "00211d947539f2129294b3473cd6d0c88fd3e11ab08256aaeeac514ade4ede3c",
+    "acs_household_b25010_2022.csv": "af976dc9dfdb8f02b1b1f7d8e1cc746b86b80972e4131a81061ae20896048058",
+    "acs_education_b15003_2022.csv": "d7d62183a037e4ffc3d81fa39c1ea8868a3db3f4208a4deb9a6c46314b53f4ab",
+    "acs_population_b01003_2022.csv": "c6050bea3d174a4a95831e25b12441eed27e131da11aadaa8e79984f81584019",
+    "acs_features_2022_county.csv": "34a45b900122a7f0e7b257c37a3d8061bf2fb3820838ccb5e5d3e07343b8277b",
+    "acs_employment_b23025_2022.csv": "8ff551fd0ec60f734cd88b31a3a1772b6cbedec304711ee95082f7b1ed0f2b74"
+  }
+}
