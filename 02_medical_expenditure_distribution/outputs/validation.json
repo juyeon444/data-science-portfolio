@@ -36,7 +36,7 @@
     "reporting.py": "1d91a25b62258d45de40949ce466d709479f0e8b58d56c3b9b22045ed8cb24f0"
   },
   "notebook_sha256": {
-    "01_data_overview.ipynb": "f149add3a8879208bb60e1a42b261d0fbcd37e5b44bcd6db2523ec961dbfff19",
+    "01_data_overview.ipynb": "c0f2405416a5afd7f967567f2ac3c74ecff1d19f4ee68c860fceff7b2843b4a2",
     "02_distribution_and_composition.ipynb": "582b47e5fb77b470b5268648001075403dc975893852557f35c16d2521a3691d"
   },
   "figure_sha256": {
@@ -44,5 +44,13 @@
     "composition.png": "c921c6d712fd842f04b00e73793d7b5fcc4a2000e196459846397949e6c8c9bc",
     "distribution.png": "b0c9194c13af7dcae8d094e358443c6d33794c4b7bcf6b4848d59c2aaecf2194",
     "characteristics.png": "7d40ab342ab7c6f00df8ed18a6e2e8a0c4d665b3d51da254f8916e56bdd2bd5a"
+  },
+  "kernel_metadata_validation": {
+    "verified_at": "2026-11-03T08:57:11.544673-07:00",
+    "notebook": "01_data_overview.ipynb",
+    "kernel": "python3",
+    "language": "python",
+    "python_probe_passed": true,
+    "original_cells_and_outputs_unchanged": true
   }
 }
